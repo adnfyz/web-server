@@ -55,7 +55,7 @@ app.get('/about',(request,response)=>{
 
 app.get('/projects',(request,response)=>{
 	response.render('projects.hbs',{
-		pagetitle:'portfolio page here'
+		pagetitle:'Projects done!'
 	});
 });
 app.get('/about/bad',(request,response)=>{
