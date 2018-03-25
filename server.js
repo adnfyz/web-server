@@ -53,6 +53,11 @@ app.get('/about',(request,response)=>{
 	});
 });
 
+app.get('/projects',(request,response)=>{
+	response.render('projects.hbs',{
+		pagetitle:'portfolio page here'
+	});
+});
 app.get('/about/bad',(request,response)=>{
 	response.send('bad parameter send!');
 });
